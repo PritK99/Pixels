@@ -8,8 +8,4 @@ Deadline : 1st December
 2) Complete first 2 videos of The ancient secrets of computer vision.
 
 Status : incomplete 
-
-## Notes 
-### The ancient secrets of computer vision
-
     
