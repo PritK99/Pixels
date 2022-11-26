@@ -13,5 +13,8 @@ Then we start to understand human eye which is majorly comprised of rods and con
 
 We also learn about ventral and dorsal system, where ventral system is used for recognition and identification of objects, while the dorsal system guides you to do stuff like picking up objects.
 
-<p>Light essentially, is an electromagnetic wave. The colour of any object depend on the illumination of source and reflectance of object. eg. In daylight, an apple appears to be red because of the light sun is emmiting and reflectance of apple. The same apple colour might apprear different under LED cause the light it is emmiting is different from the light emitted by sun.</p>
-<p>This is also the reason why makeup might look different when applied in house under LEDs and under sunlight.</p>
+Light essentially, is an electromagnetic wave. The colour of any object depend on the illumination of source and reflectance of object. eg. In daylight, an apple appears to be red because of the light sun is emmiting and reflectance of apple. The same apple colour might apprear different under LED cause the light it is emmiting is different from the light emitted by sun.
+
+This is also the reason why makeup might look different when applied in house under LEDs and under sunlight. This is because the illumination factor is different in both the cases.
+
+Our perception of colour comes from the cones. Cones generally need sufficient light to get activated, unlike rods. Thus at night we dont clearly see colours cause our cones are less active than the rods. Thus rods which work in dim light as well are resplonsible for night vision. Thus, the colours which we see are due to the 3 different kinds of cones. Colour blind is a condition which happens when one lacks a certain type of cone out of these 3 types. These cones are also called as red, blue, green cones. All the colours that we percive are a certain combination of this red, gree, and blue light.
