@@ -20,4 +20,6 @@ This is also the reason why makeup might look different when applied in house un
 
 Our perception of colour comes from the cones. Cones generally need sufficient light to get activated, unlike rods. Thus at night we dont clearly see colours cause our cones are less active than the rods. Thus rods which work in dim light as well are resplonsible for night vision. Thus, the colours which we see are due to the 3 different kinds of cones. Colour blind is a condition which happens when one lacks a certain type of cone out of these 3 types. These cones are also called as red, blue, green cones. All the colours that we percive are a certain combination of this red, gree, and blue light.
 
+<img src = "https://www.baeldung.com/wp-content/uploads/sites/4/2022/02/rgb.png" alt = "several combinations of RGB" >
+
 
