@@ -13,6 +13,5 @@ Then we start to understand human eye which is majorly comprised of rods and con
 
 We also learn about ventral and dorsal system, where ventral system is used for recognition and identification of objects, while the dorsal system guides you to do stuff like picking up objects.
 
-Light essentially, is an electromagnetic wave. The colour of any object depend on the illumination of source and reflectance of object. eg. In daylight, an apple appears to be red because of the light sun is emmiting and reflectance of apple. The same apple colour might apprear different under LED cause the light it is emmiting is different from the light emitted by sun.
-
-This is also the reason why makeup might look different when applied in house under LEDs and under sunlight.
+<p>Light essentially, is an electromagnetic wave. The colour of any object depend on the illumination of source and reflectance of object. eg. In daylight, an apple appears to be red because of the light sun is emmiting and reflectance of apple. The same apple colour might apprear different under LED cause the light it is emmiting is different from the light emitted by sun.</p>
+<p>This is also the reason why makeup might look different when applied in house under LEDs and under sunlight.</p>
