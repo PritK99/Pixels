@@ -1,10 +1,6 @@
 # Lec_2
 
 ## Notes 
-
-High level vision is not only limited to extracting semantics out of an image, but also deals with creating an image out of the semantics.
-for eg. given a vector, computer can form randomly generated images from it which it has never seen before.
-
 This lecture introduces us to how eyes work and how human eye process light and images.
 
 <p>The eyes have evolved over time from just being able to detect the presence of light in some organisms to able to detect the direction of light precisely for other organisms. This goes from simple protiens called eyespots to pinhole eyes to eyes with lenses.</p>
