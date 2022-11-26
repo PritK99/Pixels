@@ -42,5 +42,8 @@ A lot of things such as image classification , YOLO detection , identifications 
 6) Image retrival
 These methods are often used in robots etc.
 
+High level vision is not only limited to extracting semantics out of an image, but also deals with creating an image out of the semantics.
+for eg. given a vector, computer can form randomly generated images from it which it has never seen before.
+
 ### Conclusion 
 This lecture introduces us to computer vision, classifies computer vision into three tires and gives explaination and applications of each.
