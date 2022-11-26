@@ -22,9 +22,10 @@ Our perception of colour comes from the cones. Cones generally need sufficient l
 
 <img src = "https://www.baeldung.com/wp-content/uploads/sites/4/2022/02/rgb.png" alt = "several combinations of RGB" >
 
-Taking all these combinations into consideration, we can draw a colour map of the human eye 
+Taking all these combinations into consideration, we can draw a colour map of the human eye. The horseshoe diagram represents the range of colours visble to human eye. The triangles here are just some form of representations of those colours in devices. For eg. SRGB is a small triangle which means that all the colours which lie inside the triangle can be represented. The range of SRGB is smaller, which makes it compatible with lots of devices and thus is a standard form.
 
-![image](https://user-images.githubusercontent.com/103832825/204094196-76d61cde-4f19-4f4e-b610-5813d5259e17.png)
+![image](https://user-images.githubusercontent.com/103832825/204094413-1f640cf0-9994-453b-b346-28bd64b6fcdc.png)
+
 
 
 
