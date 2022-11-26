@@ -10,7 +10,7 @@ This lecture introduces us to how eyes work and how human eye process light and 
 <p>The eyes have evolved over time from just being able to detect the presence of light in some organisms to able to detect the direction of light precisely for other organisms. This goes from simple protiens called eyespots to pinhole eyes to eyes with lenses.</p>
 <br>
 
-![350px-Diagram_of_eye_evolution svg](https://user-images.githubusercontent.com/103832825/204090562-00b379d1-9a9a-4235-98c2-25d496a645f8.png)
+<img src = "https://www.shutterstock.com/image-vector/diagram-evolution-eye-260nw-122616334.jpg" alt = "Image showing evolution of eyes" >
 
 <p>Then we start to understand human eye which is majorly comprised of rods and cones. Our eyes have more number of rods than cones. Further, the cones are concentrated at one spot majorly. The blind spot is spot where there are no rods or cones. This leads to several interesting phenomena regarding peripheral vision, night vision etc.</p>
 <br>
