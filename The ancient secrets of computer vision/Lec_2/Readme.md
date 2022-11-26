@@ -22,4 +22,9 @@ Our perception of colour comes from the cones. Cones generally need sufficient l
 
 <img src = "https://www.baeldung.com/wp-content/uploads/sites/4/2022/02/rgb.png" alt = "several combinations of RGB" >
 
+Taking all these combinations into consideration, we can draw a colour map of the human eye 
+
+![image](https://user-images.githubusercontent.com/103832825/204094196-76d61cde-4f19-4f4e-b610-5813d5259e17.png)
+
+
 
