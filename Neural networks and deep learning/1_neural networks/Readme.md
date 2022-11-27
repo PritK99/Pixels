@@ -13,7 +13,7 @@ It introduces us to several types of neural networks such as simple neural netwo
 ## Week 2
 
 ### Understanding
-Week 2 covers topics under regression such as linear regression, binary classification, logistic regression, loss function, cost function, gradient descent etc.
+Week 2 covers several topics such as linear regression, binary classification, logistic regression, loss function, cost function, gradient descent etc.
 
 ### Notes
 ![WhatsApp Image 2022-11-27 at 11 31 32 AM](https://user-images.githubusercontent.com/103832825/204121665-5393379f-e2ba-4da9-94d7-bdb341a14879.jpeg)
