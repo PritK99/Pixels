@@ -46,9 +46,10 @@ save_image(im, "output/RGB_overflow")
 clamp_image(im)
 save_image(im, "output/RGB_fixed")
 
-# # 6-7. Colorspace and saturation
-# im = load_image("data/dog.jpg")
-# rgb_to_hsv(im)
+# 6-7. Colorspace and saturation
+im = load_image("data/dog.jpg")
+rgb_to_hsv(im)
+save_image(im, "output/HSV_dog")
 # shift_image(im, 1, .2)
 # clamp_image(im)
 # hsv_to_rgb(im)
