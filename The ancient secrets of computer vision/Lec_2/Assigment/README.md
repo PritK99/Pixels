@@ -172,6 +172,10 @@ and the resulting image, `fixed.jpg`:
 
 ![](figs/fixed.jpg)
 
+The same effect on the RGB image is as follows :-
+
+![RGB_fixed](https://user-images.githubusercontent.com/103832825/205491484-d42838dc-048c-48dd-bb22-7cc02e92850b.jpg)
+
 ## 6. RGB to Hue, Saturation, Value ##
 
 So far we've been focussing on RGB and grayscale images. But there are other colorspaces out there too we may want to play around with. Like [Hue, Saturation, and Value (HSV)](https://en.wikipedia.org/wiki/HSL_and_HSV). We will be translating the cubical colorspace of sRGB to the cylinder of hue, saturation, and value:
