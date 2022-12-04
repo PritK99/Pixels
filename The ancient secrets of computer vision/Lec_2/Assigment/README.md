@@ -39,6 +39,15 @@ after you make any changes to the code. Then you can quickly test your changes b
 
     ./uwimg test
 
+If you run the above code without making any changes to the original repo, you will get the following result:
+
+    16 tests, 3 passed, 13 failed
+
+Once everything is implemented correctly, you will get:
+
+    16 tests, 16 passed, 0 failed
+
+
 You can also try running the example python code to generate some images:
 
     python tryit.py

@@ -6,29 +6,12 @@
 
 float get_pixel(image im, int x, int y, int c)
 {
-    printf("hola\n");
-    for (int i = 0; i < im.c; i++)
-    {
-
-        for (int j = 0 ; j < im.h ; j++)
-        {
-            for (int k = 0 ; k < im.w ; k++)
-            {
-                printf("The c : %d , h : %d , w : %d\n" , i , j , k) ;
-                if (i == c && j == x && k == y )
-                {
-                    printf("milgaya !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!") ;
-                    return *im.data ;
-                }
-            }
-        }
-    }
-    return *im.data ;
+    return im.data[x + y*im.w + c*im.w*im.h] ;
 }
 
 void set_pixel(image im, int x, int y, int c, float v)
-{
-    // TODO Fill this in
+{ 
+    im.data[x + y*im.w + c*im.w*im.h] = v;
 }
 
 image copy_image(image im)
