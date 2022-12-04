@@ -22,12 +22,20 @@ im = load_image("data/rgb.png")
 grayrgb = rgb_to_grayscale(im)
 save_image(grayrgb, "output/grayrgb")
 
-# # 4. Shift Image
-# im = load_image("data/dog.jpg")
-# shift_image(im, 0, .4)
-# shift_image(im, 1, .4)
-# shift_image(im, 2, .4)
-# save_image(im, "overflow")
+# 4. Shift Image
+im = load_image("data/dog.jpg")
+shift_image(im, 0, .4)
+shift_image(im, 1, .4)
+shift_image(im, 2, .4)
+# we call this overflow because the pixel value might have exceeded 1 giving this weird patterns
+save_image(im, "output/Dog_overflow")
+
+im = load_image("data/rgb.png")
+shift_image(im, 0, .4)
+shift_image(im, 1, .4)
+shift_image(im, 2, .4)
+# we call this overflow because the pixel value might have exceeded 1 giving this weird patterns
+save_image(im, "output/RGB_overflow")
 
 # # 5. Clamp Image
 # clamp_image(im)
