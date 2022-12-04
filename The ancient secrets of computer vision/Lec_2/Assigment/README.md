@@ -147,14 +147,14 @@ Fill in the code for `void shift_image(image im, int c, float v);`. It should ad
     shift_image(im, 1, .4)
     shift_image(im, 2, .4)
     save_image(im, "overflow")
-    
-The same effect on the RGB image is as follows :-
-
-![RGB_overflow](https://user-images.githubusercontent.com/103832825/205491031-7954555e-460e-4898-a482-98ccac7e01ac.jpg)
 
 But wait, when we look at the resulting image `overflow.jpg` we see something bad has happened! The light areas of the image went past 1 and when we saved the image back to disk it overflowed and made weird patterns:
 
 ![Overflow](figs/overflow.jpg)
+
+The same effect on the RGB image is as follows :-
+
+![RGB_overflow](https://user-images.githubusercontent.com/103832825/205491031-7954555e-460e-4898-a482-98ccac7e01ac.jpg)
 
 ## 5. Clamping the image values
 
