@@ -129,6 +129,10 @@ Using this conversion technique we get a pretty good grayscale image! Now we can
 
 ![Grayscale colorbars](figs/gray.png)
 
+The same effect on the RGB image is as follows :-
+
+![grayrgb](https://user-images.githubusercontent.com/103832825/205491009-83408988-802a-428b-a44a-526eb87db8ee.jpg)
+
 Implement this conversion for the function `rgb_to_grayscale`. Return a new image that is the same size but only one channel containing the calculated luma values.
 
 ## 4. Shifting the image colors ##
@@ -143,6 +147,10 @@ Fill in the code for `void shift_image(image im, int c, float v);`. It should ad
     shift_image(im, 1, .4)
     shift_image(im, 2, .4)
     save_image(im, "overflow")
+    
+The same effect on the RGB image is as follows :-
+
+![RGB_overflow](https://user-images.githubusercontent.com/103832825/205491031-7954555e-460e-4898-a482-98ccac7e01ac.jpg)
 
 But wait, when we look at the resulting image `overflow.jpg` we see something bad has happened! The light areas of the image went past 1 and when we saved the image back to disk it overflowed and made weird patterns:
 
