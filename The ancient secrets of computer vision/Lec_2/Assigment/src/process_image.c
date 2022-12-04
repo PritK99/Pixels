@@ -134,10 +134,12 @@ void rgb_to_hsv(image im)
         im.data[i + im.w * im.h] = saturation;
         im.data[i + 2 * im.w * im.h] = value;
         
+        printf("H : %f , s : %f , v : %f\n" , hue , saturation , value ) ;
     }
 }
 
 void hsv_to_rgb(image im)
 {
+
     // TODO Fill this in
 }

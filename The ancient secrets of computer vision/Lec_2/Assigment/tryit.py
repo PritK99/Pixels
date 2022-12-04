@@ -50,9 +50,9 @@ save_image(im, "output/RGB_fixed")
 im = load_image("data/dog.jpg")
 rgb_to_hsv(im)
 save_image(im, "output/HSV_dog")
-# shift_image(im, 1, .2)
-# clamp_image(im)
+shift_image(im, 1, .2)
+clamp_image(im)
 # hsv_to_rgb(im)
-# save_image(im, "dog_saturated")
+save_image(im, "output/dog_saturated")
 
 
