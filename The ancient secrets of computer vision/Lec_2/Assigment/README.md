@@ -1,4 +1,4 @@
-# CSE 455 Homework 0 #
+# Assignment #
 
 Welcome friends,
 
@@ -88,6 +88,9 @@ Then try running it. Check out our very not red dog:
 
 ![](figs/dog_no_red.jpg)
 
+Also try to set the blue channel pixels to 0 in the given rgb image : 
+
+![rgb_no_blue](https://user-images.githubusercontent.com/103832825/205473899-889e87e8-fa68-41e4-9390-0c7acae45297.jpg)
 
 ## 2. Copying images ##
 
