@@ -5,18 +5,22 @@ im = load_image("data/dog.jpg")
 for row in range(im.h):
     for col in range(im.w):
         set_pixel(im, col, row, 0, 0)
-save_image(im, "dog_no_red")
+save_image(im, "output/dog_no_red")
 
 im = load_image("data/rgb.png")
 for row in range(im.h):
     for col in range(im.w):
         set_pixel(im, col, row, 2, 0)
-save_image(im, "rgb_no_blue")
+save_image(im, "output/rgb_no_blue")
 
-# # 3. Grayscale image
-# im = load_image("data/colorbar.png")
-# graybar = rgb_to_grayscale(im)
-# save_image(graybar, "graybar")
+# 3. Grayscale image
+im = load_image("data/colorbar.png")
+graybar = rgb_to_grayscale(im)
+save_image(graybar, "output/graybar")
+
+im = load_image("data/rgb.png")
+grayrgb = rgb_to_grayscale(im)
+save_image(grayrgb, "output/grayrgb")
 
 # # 4. Shift Image
 # im = load_image("data/dog.jpg")
