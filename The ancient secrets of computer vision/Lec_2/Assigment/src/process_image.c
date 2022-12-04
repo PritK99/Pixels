@@ -55,10 +55,23 @@ void shift_image(image im, int c, float v)
 
 void clamp_image(image im)
 {
-    // TODO Fill this in
+    for (int i = 0 ; i < im.h*im.c*im.w ; i++)
+    {
+        if ( im.data[i] > 1 )
+        {
+            im.data[i] = 1 ;
+        }
+        else if ( im.data[i] < 0 )
+        {
+            im.data[i] = 0 ;
+        }
+        else
+        {
+            continue ;
+        }
+    }
 }
 
-// These might be handy
 float three_way_max(float a, float b, float c)
 {
     return (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);

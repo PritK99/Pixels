@@ -30,16 +30,21 @@ shift_image(im, 2, .4)
 # we call this overflow because the pixel value might have exceeded 1 giving this weird patterns
 save_image(im, "output/Dog_overflow")
 
+# 5. Clamp Image
+clamp_image(im)
+save_image(im, "output/doglight_fixed")
+
+# 4. Shift Image
 im = load_image("data/rgb.png")
 shift_image(im, 0, .4)
 shift_image(im, 1, .4)
 shift_image(im, 2, .4)
-# we call this overflow because the pixel value might have exceeded 1 giving this weird patterns
+
 save_image(im, "output/RGB_overflow")
 
-# # 5. Clamp Image
-# clamp_image(im)
-# save_image(im, "doglight_fixed")
+# 5. Clamp Image
+clamp_image(im)
+save_image(im, "output/RGB_fixed")
 
 # # 6-7. Colorspace and saturation
 # im = load_image("data/dog.jpg")
