@@ -34,3 +34,10 @@ In bayer filter, there are two green filters for each red and blue filter becaus
 Bayer filter is thus an actual physical thing present in front of our camera !
 
 This <a href = "https://www.youtube.com/watch?v=LWxu4rkZBLw&t=355s" alt = "Computerphile video on capturing digital images"> video</a> very nicely explains how the images is captured, filtered etc.
+
+Now, the way image is represented is a matrix i.e. a 2-D array.
+
+![image](https://user-images.githubusercontent.com/103832825/206825749-123e739f-b75c-4970-85a8-b8ec5284ac9f.png)
+
+The indexing starts from the left-topmost pixel. Essentially, the standard Y-axis has been flipped upside down.
+So, (x , y) here would mean <b>xth column</b> and <b>yth row</b>. It is ( col , row ) format
