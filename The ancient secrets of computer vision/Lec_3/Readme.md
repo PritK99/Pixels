@@ -31,4 +31,4 @@ This is the bayer filter :-
 
 In bayer filter, there are two green filters for each red and blue filter because our eyes is more sensitive to the green colour, which is luminanace rather than blue and red, which is chrominance.
 
-This <a href = "https://www.youtube.com/watch?v=LWxu4rkZBLw&t=355s" alt = "Computerphile video on capturing digital images"> video </a> very nicely explains how the images is captured, filtered etc.
+This <a href = "https://www.youtube.com/watch?v=LWxu4rkZBLw&t=355s" alt = "Computerphile video on capturing digital images"> video</a> very nicely explains how the images is captured, filtered etc.
