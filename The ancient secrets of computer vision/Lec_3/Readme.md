@@ -4,6 +4,7 @@ This lecture introduces us to the ways images are represented in computer, the w
 
 ## Notes 
 
+### Image
 The camera that we use, is made of many sensors. The problem with these sensor here is that it is very good at detecting the <b> intensity of light </b> and NOT the colour of light. Thus, each photosite is colorblind. It only keeps track of the total intensity of the light that strikes its surface. 
 
 ![image](https://user-images.githubusercontent.com/103832825/206824216-12ece07f-daa8-42d9-9b4d-f8656f7ebf0f.png)
@@ -49,5 +50,12 @@ This image however, is stored as a linear array in memory. For given (x , y , c)
       x + (y * im.w) + (c*im.w * im.h)
 
 where im.c , im.h represent the total width and height of image respectively
+
+### Colour spaces other than RGB (HSV)
+
+Hues are the three primary colors (red, blue, and yellow). So when you ask what is hue, you mean is it red, blue or green ? 
+Value is simply relative lightness and darkness of colour.
+Saturation is the intensity of colour 
+
 
 
