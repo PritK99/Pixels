@@ -84,17 +84,17 @@ float three_way_min(float a, float b, float c)
 
 void rgb_to_hsv(image im)
 {
-    float value, m, C, saturation, hue , hue_bar ;
+    float value, m, C, saturation, hue, hue_bar;
     for (int i = 0; i < im.w * im.h; i++)
     {
-        //get value
+        // get value
         value = three_way_max(im.data[i], im.data[i + im.w * im.h], im.data[i + 2 * im.w * im.h]);
 
-        //get saturation with special condition that if all R , G ,B values are 0 
+        // get saturation with special condition that if all R , G ,B values are 0
         if (im.data[i] == 0 && im.data[i + im.w * im.h] == 0 && im.data[i + 2 * im.w * im.h] == 0)
         {
             saturation = 0;
-            C = 0 ; 
+            C = 0;
         }
         else
         {
@@ -103,43 +103,91 @@ void rgb_to_hsv(image im)
             saturation = C / value;
         }
 
-        //get hue
+        // get hue
         if (C == 0)
         {
-            hue_bar = 0 ;
+            hue_bar = 0;
         }
-        else if ( value == im.data[i] )
+        else if (value == im.data[i])
         {
-            hue_bar = (im.data[i + im.w * im.h] - im.data[i + 2 * im.w * im.h] ) / C ;
+            hue_bar = (im.data[i + im.w * im.h] - im.data[i + 2 * im.w * im.h]) / C;
         }
-        else if ( value == im.data[i + im.w * im.h] )
+        else if (value == im.data[i + im.w * im.h])
         {
-            hue_bar = ( (im.data[i + 2 * im.w * im.h] - im.data[i]  ) / C ) + 2 ;
+            hue_bar = ((im.data[i + 2 * im.w * im.h] - im.data[i]) / C) + 2;
         }
-        else if ( value == im.data[i + 2 * im.w * im.h])
+        else if (value == im.data[i + 2 * im.w * im.h])
         {
-            hue_bar = ((im.data[i] - im.data[i + im.w * im.h] ) / C ) + 4;
+            hue_bar = ((im.data[i] - im.data[i + im.w * im.h]) / C) + 4;
         }
 
         if (hue_bar < 0)
         {
-            hue = (hue_bar/6) + 1 ;
+            hue = (hue_bar / 6) + 1;
         }
         else
         {
-            hue = hue_bar / 6 ;
+            hue = hue_bar / 6;
         }
 
         im.data[i] = hue;
         im.data[i + im.w * im.h] = saturation;
         im.data[i + 2 * im.w * im.h] = value;
-        
-        printf("H : %f , s : %f , v : %f\n" , hue , saturation , value ) ;
     }
 }
 
 void hsv_to_rgb(image im)
 {
+    float R, G, B, m, M, z;
 
-    // TODO Fill this in
+    for (int i = 0; i < im.w * im.h; i++)
+    {
+        M = 255 * im.data[i + 2 * im.h * im.w];
+        m = M * (1 - im.data[i + im.h * im.w]);
+
+        z = (M - m) *(1 - fabs(remainder(60 * im.data[i], 2) - 1));
+
+        float h = im.data[i] * 360;
+
+        if (h >= 0 && h < 60)
+        {
+            R = M;
+            G = z + m;
+            B = m;
+        }
+        else if (h >= 60 && h < 120)
+        {
+            R = z + m;
+            G = M;
+            B = m;
+        }
+        else if (h >= 120 && h < 180)
+        {
+            R = m;
+            G = M;
+            B = z + m;
+        }
+        else if (h >= 180 && h < 240)
+        {
+            R = m;
+            G = z + m;
+            B = M;
+        }
+        else if (h >= 240 && h < 300)
+        {
+            R = z + m;
+            G = m;
+            B = M;
+        }
+        else
+        {
+            R = M;
+            G = m;
+            B = z + m;
+        }
+
+        im.data[i] = R/255 ;
+        im.data[i + im.w*im.h] = G/255 ;
+        im.data[i + 2*im.w*im.h] = B / 255 ;
+    }
 }
