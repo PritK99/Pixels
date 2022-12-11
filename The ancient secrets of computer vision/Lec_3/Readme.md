@@ -55,7 +55,9 @@ where im.c , im.h represent the total width and height of image respectively
 
 Hues are the three primary colors (red, blue, and yellow). So when you ask what is hue, you mean is it red, blue or green ? 
 Value is simply relative lightness and darkness of colour.
-Saturation is the intensity of colour 
+Saturation is the intensity of colour.
+
+
 
 
 
