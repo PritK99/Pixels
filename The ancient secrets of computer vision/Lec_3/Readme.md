@@ -35,9 +35,17 @@ Bayer filter is thus an actual physical thing present in front of our camera !
 
 This <a href = "https://www.youtube.com/watch?v=LWxu4rkZBLw&t=355s" alt = "Computerphile video on capturing digital images"> video</a> very nicely explains how the images is captured, filtered etc.
 
-Now, the way image is represented is a matrix i.e. a 2-D array.
+Now, the way image is represented is a tensor i.e. a 2-D array with higher dimension.
 
 ![image](https://user-images.githubusercontent.com/103832825/206825749-123e739f-b75c-4970-85a8-b8ec5284ac9f.png)
 
 The indexing starts from the left-topmost pixel. Essentially, the standard Y-axis has been flipped upside down.
-So, (x , y) here would mean <b>xth column</b> and <b>yth row</b>. It is ( col , row ) format
+So, (x , y) here would mean <b>xth column</b> and <b>yth row</b>. It is ( col , row ) format. Thus ( 5 , 7 ) would really mean 5th column and 7th row.
+
+This image however, is stored as a linear array in memory. For given (x , y , c) , where x represents column, represents rows and c represents channel we can address pixel in the image using :-
+
+      x + (y * im.w) + (c*im.w * im.h)
+
+where im.c , im.h represent the total width and height of image respectively
+
+
