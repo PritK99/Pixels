@@ -8,5 +8,5 @@ Further, Week 2 teaches us vectorization and explains the use of numpy. Also we 
 
 ### Notes
 
-The entire theory and working of code is explained in the Logiestic_Regression_with_a_neural_network assignment
+The entire theory and working of code is explained in the Logistic_Regression_with_a_neural_network assignment
 For notes and referances,<a href= "https://aman.ai/coursera-dl/neural-networks-and-deep-learning/"> click here </a>.
