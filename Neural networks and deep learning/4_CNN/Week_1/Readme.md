@@ -14,6 +14,7 @@ The fine tuning of the weights is done by implementing neural networks so that w
 
 For edge detecion we use the kernel :-
 
+![image](https://user-images.githubusercontent.com/103832825/207421496-31b844a0-8dd2-49c3-811f-13d55496a8b3.png)
 
 Here, the first image represents vertical edge detetction while second is for horizontal.
 
