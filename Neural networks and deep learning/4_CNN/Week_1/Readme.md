@@ -52,5 +52,7 @@ Instead of just applying convolutions on 2D images, we can also apply convolutio
 
 The final output is a 4x4 2D image.
 
+![image](https://user-images.githubusercontent.com/103832825/207489294-bd43cd1d-247f-4f57-9a62-8a726cf36f40.png)
+
 Apart from this, you can apply multiple filters, say we applied 2 filters, horizontal edge and vertical edge. Then in that case our final output will be 4x4x2 image, where that 2 is because of applying 2 filters on same volume.
 
