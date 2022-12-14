@@ -102,3 +102,6 @@ Now even if image were 64x64 or 1000x1000, we need to tune those 9 weights of fi
 
 Another reason can be sparse connections.
 When we get the output from a kernel, that output simply depens on the part of input where the kernel was used. For eg. if I have a 6x6 image and 3x3 kernel , the indivisual output pixels depens only on 9 of image pixels and not on all of them.
+
+### <b>Assignments</b>
+
