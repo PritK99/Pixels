@@ -58,5 +58,12 @@ Apart from this, you can apply multiple filters, say we applied 2 filters, horiz
 
 #### <b>Applying one layer of Convolution Neural Network</b>
 
+![WhatsApp Image 2022-12-14 at 8 58 06 AM (1)](https://user-images.githubusercontent.com/103832825/207498312-c627c730-f37c-495d-a02b-67bc1980283e.jpeg)
+
+Futther, the notations for neural network are :- 
+
+![WhatsApp Image 2022-12-14 at 8 58 06 AM](https://user-images.githubusercontent.com/103832825/207498284-90ef0552-2eab-4f29-beea-99874489209a.jpeg)
+
+![WhatsApp Image 2022-12-14 at 8 58 05 AM](https://user-images.githubusercontent.com/103832825/207498256-0f1b7773-29f4-4e71-800a-74b23d3c3146.jpeg)
 
 
