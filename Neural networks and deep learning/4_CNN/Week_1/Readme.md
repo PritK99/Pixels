@@ -7,11 +7,11 @@ Week 1 gives an introduction to CNN's or Convolution Neural Networks.
 
 ### Notes 
 
-#### Introduction
+#### <b>Introduction</b>
 Convolution (in computer vision) is basically moving a weighted kernel or filter over image and generating an output image.
 The fine tuning of the weights is done by implementing neural networks so that we dont have to mannually work on it.
 
-#### Edge detection
+#### <b>Edge detection</b>
 For edge detecion we use the kernel :-
 
 ![image](https://user-images.githubusercontent.com/103832825/207421496-31b844a0-8dd2-49c3-811f-13d55496a8b3.png)
@@ -24,7 +24,7 @@ But there are several otber filters which may perform better edge detection for 
 
 Thus, rather than tuning the weights ourselves, we use neural networks which gives most optimized weights to kernel.
 
-#### Padding
+#### <b>Padding</b>
 
 When we apply a fxf Filter over nxn image, we get an output which is (n-f+1)*(n-f+1).
 Thus in this case the edge pixels dont play much role in output and the size keeps on shrinking. This is because there is no space at edges to apply filter on.
@@ -41,12 +41,12 @@ Thus there are two types of convolutions :-
 The value of Padding for same convolutions is (f-1/2). This works usually for f = odd, and generally all filters are odd x odd kernels.
 Also, being odd x odd allows them to focus on central pixel too.
 
-#### Stride Convololution
+#### <b>Stride Convololution</b>
 
 Stride convolutions refers to the the step size while convolution. Generally, we move the kernel one row by row and one column by column. This is a stride = 1.
 Incase of stride = 2 , we directly jump our kernel by two rows or 2 columns.
 
-#### Convolution over volume
+#### <b>Convolution over volume</b>
 
 Instead of just applying convolutions on 2D images, we can also apply convolutions on volumes. For eg. If we have a RGB image, it has dimensions (width , height , channel) say 6x6x3. The in that case our filter is also supposed to have 3 channels, say 3x3x3 is our filter.
 
