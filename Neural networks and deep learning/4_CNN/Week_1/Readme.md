@@ -56,3 +56,7 @@ The final output is a 4x4 2D image.
 
 Apart from this, you can apply multiple filters, say we applied 2 filters, horizontal edge and vertical edge. Then in that case our final output will be 4x4x2 image, where that 2 is because of applying 2 filters on same volume.
 
+#### <b>Applying one layer of Convolution Neural Network</b>
+
+
+
