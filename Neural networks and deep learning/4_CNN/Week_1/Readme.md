@@ -1,11 +1,11 @@
-# Neural networks and deep learning
+# <b>Neural networks and deep learning</b>
 
-## Week 1 
+## <b>Week 1</b> 
 
-### Understanding 
+### <b>Understanding</b> 
 Week 1 gives an introduction to CNN's or Convolution Neural Networks.
 
-### Notes 
+### <b>Notes</b>
 
 #### <b>Introduction</b>
 Convolution (in computer vision) is basically moving a weighted kernel or filter over image and generating an output image.
@@ -66,4 +66,39 @@ Futther, the notations for neural network are :-
 
 ![WhatsApp Image 2022-12-14 at 8 58 05 AM](https://user-images.githubusercontent.com/103832825/207498256-0f1b7773-29f4-4e71-800a-74b23d3c3146.jpeg)
 
+#### <b>Types of layers in Convolution networks</b>
 
+1) Convolution 
+2) Pooling
+3) Fully connected
+
+#### <b>Pooling</b>
+
+Pooling layers are used to reduce the dimensions of the feature maps. Thus, it reduces the number of parameters to learn and the amount of computation performed in the network.
+
+One of the example of pooling is max-pooling.
+
+<img src = "https://media.geeksforgeeks.org/wp-content/uploads/20190721025744/Screenshot-2019-07-21-at-2.57.13-AM.png" alt= "Max Pooling">
+
+The above image shows how we take a filter of 2x2 with stride of 2 and simply output the maximum number in the region where filter is applied.
+
+This method works well with Convolutional neural networks, since the feature is always extracted. Say the feature was to locate a cat eye, so the higher numbers which represent the presence of cat-eyes are always extracted.
+
+Also, once the stride and filter size is fixed also called as hyperparameters, there is no need of doing gradient descent here.
+
+Another example of pooling are average pooling. This is laso used to reduce the size of input.
+
+#### <b>Fully connected layer</b>
+
+A fully connected layer multiplies the input by a weight matrix and then adds a bias vector.
+
+### <b>Conclusion</b>
+
+<img src = "https://i0.wp.com/developersbreach.com/wp-content/uploads/2020/08/cnn_banner.png?fit=1200%2C564&ssl=1" alt = "Convolutional Neural Networks" >
+
+We prefer convolutions here, because it allows us to go for parameter sharing. Using convolutions, we do not have to train a lot of paramters. For eg. in edge detection, we simply had to tune the 9 weights of kernel and a bias parameter rather than having weight for each input pixel.
+
+Now even if image were 64x64 or 1000x1000, we need to tune those 9 weights of filter only.
+
+Another reason can be sparse connections.
+When we get the output from a kernel, that output simply depens on the part of input where the kernel was used. For eg. if I have a 6x6 image and 3x3 kernel , the indivisual output pixels depens only on 9 of image pixels and not on all of them.
