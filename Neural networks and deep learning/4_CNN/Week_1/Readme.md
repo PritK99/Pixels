@@ -1,4 +1,4 @@
-# <b>Neural networks and deep learning</b>
+# <b>Convolutional Neural Networks (CNNs)</b>
 
 ## <b>Week 1</b> 
 
