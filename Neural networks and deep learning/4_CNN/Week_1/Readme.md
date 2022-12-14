@@ -46,4 +46,11 @@ Also, being odd x odd allows them to focus on central pixel too.
 Stride convolutions refers to the the step size while convolution. Generally, we move the kernel one row by row and one column by column. This is a stride = 1.
 Incase of stride = 2 , we directly jump our kernel by two rows or 2 columns.
 
+#### Convolution over volume
+
+Instead of just applying convolutions on 2D images, we can also apply convolutions on volumes. For eg. If we have a RGB image, it has dimensions (width , height , channel) say 6x6x3. The in that case our filter is also supposed to have 3 channels, say 3x3x3 is our filter.
+
+The final output is a 4x4 2D image.
+
+Apart from this, you can apply multiple filters, say we applied 2 filters, horizontal edge and vertical edge. Then in that case our final output will be 4x4x2 image, where that 2 is because of applying 2 filters on same volume.
 
